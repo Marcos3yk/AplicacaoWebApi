@@ -39,7 +39,7 @@ namespace ExemploAspNetCoreApi
                 app.UseDeveloperExceptionPage();
             }
 
-            app.UseMvc();
+            app.UseMvcWithDefaultRoute();
         }
     }
 }
